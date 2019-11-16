@@ -10,6 +10,9 @@
 * windows下进入GetSub目录  
   celery -A proj worker -l info -P eventlet  
   启动worker
+  
+* /Get_Sub/start.py发布子域名收集任务并监控
+* /Get_Sub/cscan_check.py发布C段扫描收集任务并监控
 
 
 ## data目录
