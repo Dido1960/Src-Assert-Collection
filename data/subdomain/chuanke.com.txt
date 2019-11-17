@@ -1,0 +1,3 @@
+openapi.chuanke.com
+passport.chuanke.com
+pay.chuanke.com

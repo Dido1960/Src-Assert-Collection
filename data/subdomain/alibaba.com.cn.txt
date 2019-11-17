@@ -1,0 +1,2 @@
+guc.alibaba.com.cn
+domain.realname.alibaba.com.cn

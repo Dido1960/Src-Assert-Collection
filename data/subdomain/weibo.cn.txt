@@ -1,0 +1,16 @@
+2016.weibo.cn
+api.weibo.cn
+load.api.weibo.cn
+dl.chaohua.weibo.cn
+www.dl.chaohua.weibo.cn
+weixinport.mini.game.weibo.cn
+test.game.weibo.cn
+zww.game.weibo.cn
+intra.weibo.cn
+lite.weibo.cn
+manhua.weibo.cn
+www.manhua.weibo.cn
+autodiscover.manhua.weibo.cn
+mail.manhua.weibo.cn
+owa.manhua.weibo.cn
+tpssl.weibo.cn

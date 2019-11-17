@@ -1,0 +1,4 @@
+comic.marvelunlimitedresources.com
+database.marvelunlimitedresources.com
+image.marvelunlimitedresources.com
+wwwarapp.marvelunlimitedresources.com

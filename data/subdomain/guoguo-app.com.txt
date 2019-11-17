@@ -1,0 +1,4 @@
+www.guoguo-app.com
+m.guoguo-app.com
+wap.guoguo-app.com
+api.wap.guoguo-app.com

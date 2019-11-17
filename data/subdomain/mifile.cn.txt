@@ -1,0 +1,8 @@
+global.mifile.cn
+www.global.mifile.cn
+static02.global.mifile.cn
+www.static02.global.mifile.cn
+static03.global.mifile.cn
+edu.i1.mifile.cn
+i5.mifile.cn
+www.i5.mifile.cn

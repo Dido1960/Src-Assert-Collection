@@ -1,0 +1,6 @@
+www.tal.com
+autodiscover.tal.com
+cpanel.tal.com
+mail.tal.com
+webdisk.tal.com
+webmail.tal.com

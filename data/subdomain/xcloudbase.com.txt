@@ -1,0 +1,4 @@
+cname.xcloudbase.com
+docs.xcloudbase.com
+i.xcloudbase.com
+static.xcloudbase.com

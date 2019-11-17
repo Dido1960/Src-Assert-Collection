@@ -1,0 +1,5 @@
+buy.lianwifi.com
+dl.lianwifi.com
+dl01.lianwifi.com
+img02buy.lianwifi.com
+staticbuy.lianwifi.com

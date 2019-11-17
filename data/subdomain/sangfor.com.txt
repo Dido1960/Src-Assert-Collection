@@ -1,0 +1,14 @@
+cdn.sangfor.com
+cloudwaf.sangfor.com
+demo.sangfor.com
+ea.sangfor.com
+ec.sangfor.com
+emm.sangfor.com
+emm4.sangfor.com
+gcs.sangfor.com
+link.sangfor.com
+notes.sangfor.com
+p.sangfor.com
+partners.sangfor.com
+pop3.sangfor.com
+smtp.sangfor.com

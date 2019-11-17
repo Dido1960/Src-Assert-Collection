@@ -1,0 +1,13 @@
+www.ppdai.com
+Autodiscover.ppdai.com
+ac.ppdai.com
+corp.ppdai.com
+fat-pfltest1.ppdai.com
+invest.ppdai.com
+ir.ppdai.com
+m.ppdai.com
+autodiscover.mailpoc.ppdai.com
+mail.mailpoc.ppdai.com
+owa.ppdai.com
+pay.ppdai.com
+techblog.ppdai.com

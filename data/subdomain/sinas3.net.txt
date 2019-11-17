@@ -1,0 +1,2 @@
+api.sinas3.net
+auth.sinas3.net

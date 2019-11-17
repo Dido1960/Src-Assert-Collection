@@ -1,0 +1,8 @@
+cdntest1.jcloud.com
+cdntest2.jcloud.com
+cdntest3.jcloud.com
+cdntest5.jcloud.com
+cdntest6.jcloud.com
+git.devops.jcloud.com
+nexus.devops.jcloud.com
+shop.jcloud.com

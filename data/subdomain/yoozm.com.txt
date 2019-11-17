@@ -1,0 +1,2 @@
+appstoreadmin.yoozm.com
+appstoreapi.yoozm.com

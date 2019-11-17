@@ -1,0 +1,7 @@
+imapcom.gz263xmail.com
+ma.gz263xmail.com
+popcom.gz263xmail.com
+popwcom.gz263xmail.com
+smtpcom.gz263xmail.com
+smtpwcom.gz263xmail.com
+wm.gz263xmail.com

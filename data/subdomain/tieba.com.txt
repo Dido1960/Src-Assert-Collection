@@ -1,0 +1,4 @@
+passport.tieba.com
+eg.passport.tieba.com
+hk.passport.tieba.com
+us.passport.tieba.com

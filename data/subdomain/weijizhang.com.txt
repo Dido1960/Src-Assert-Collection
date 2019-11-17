@@ -1,0 +1,6 @@
+www.weijizhang.com
+api.weijizhang.com
+www.dev.weijizhang.com
+api.dev.weijizhang.com
+img.dev.weijizhang.com
+img.weijizhang.com

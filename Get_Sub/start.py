@@ -25,7 +25,6 @@ def check(id_dict,bool):
                 id_dict_c[key] = id_dict[key]
             elif bool == 'domain':
                 # print(id_dict[key])
-                # 未对IP获取队列进行监控
                 res = getip.delay(id_dict[key])
                 id_dict_ip[res.id] = id_dict[key]
                 # print('-'*10)
@@ -93,4 +92,3 @@ if __name__ == '__main__':
     id_dict_ip = check(id_dict,'domain')
     # 监视获取IP队列
     print(check(id_dict, 'ip'))
-    # util.out_file('D:/2.auxiliary means/2-30python\FsrcAssets\data/full.txt')

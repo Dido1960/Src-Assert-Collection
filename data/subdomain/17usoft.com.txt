@@ -1,0 +1,15 @@
+autodiscover.17usoft.com
+encrypt.17usoft.com
+finance.17usoft.com
+www.finance.17usoft.com
+mail.17usoft.com
+qa.17usoft.com
+finance.qa.17usoft.com
+www.finance.qa.17usoft.com
+wlgdora.qa.17usoft.com
+www.wlgdora.qa.17usoft.com
+tccommon.qas.17usoft.com
+t.17usoft.com
+visitant.17usoft.com
+wlgdora.17usoft.com
+www.wlgdora.17usoft.com

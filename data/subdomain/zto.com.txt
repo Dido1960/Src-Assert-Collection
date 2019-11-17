@@ -1,0 +1,9 @@
+ad.zto.com
+g.zto.com
+imap.zto.com
+ztimapi.jx.zto.com
+mail.zto.com
+pop3.zto.com
+smtp.zto.com
+o.th.zto.com
+yunke.zto.com

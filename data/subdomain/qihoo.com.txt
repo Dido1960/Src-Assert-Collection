@@ -1,0 +1,2 @@
+login.qihoo.com
+sh.qihoo.com

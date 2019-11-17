@@ -1,0 +1,11 @@
+video.weibocdn.com
+akamai.video.weibocdn.com
+f.video.weibocdn.com
+f1.video.weibocdn.com
+f2.video.weibocdn.com
+f3.video.weibocdn.com
+f4.video.weibocdn.com
+f5.video.weibocdn.com
+miaopai.video.weibocdn.com
+oasis.video.weibocdn.com
+yixia.video.weibocdn.com

@@ -13,16 +13,17 @@ import queue
 
 ROOT_PATH = os.path.abspath(os.path.dirname(__file__))
 
-@app.task
+@app.task(time_limit=1)
 def getdomain(target_list):
     start = time.time()
     # baidu,bing,netcraft,dnsdumpster,ssl
     # virustotal,threatcrowd,passivedns
     threads = []
     for target in target_list:
+        print(target)
         threads.append(threading.Thread(target=sublist3r.main,
                                         args=(target, 40, 'D:/2.auxiliary means/2-30python/FsrcAssets/data/subdomain/'+target+'.txt'),
-                                        kwargs={'ports':None, 'silent':True, 'verbose': False, 'enable_bruteforce':False, 'engines':'netcraft,ssl'}))
+                                        kwargs={'ports':None, 'silent':False, 'verbose': True, 'enable_bruteforce':False, 'engines':'passivedns,ssl,threatcrowd,netcraft'}))
     for thread in threads:
         thread.start()
     for thread in threads:
@@ -74,10 +75,13 @@ def getip(domain_list):
 @app.task
 def cscan(CIDR_list):
     print('-'*20)
+    # print(CIDR_list)
     for CIDR in CIDR_list:
         ip_list = util.cscan(CIDR)
-    with open('../data/ip.txt','a',encoding='utf-8') as f:
-        for ip in ip_list:
-            f.write(str(ip)+'\n')
+        # print('../data/ip/'+CIDR.split("/")[0]+'.txt')
+        with open('D:/2.auxiliary means/2-30python/FsrcAssets/data/ip/'+CIDR.split("/")[0]+'.txt','a',encoding='utf-8') as f:
+            for ip in ip_list:
+                # print(ip)
+                f.write(str(ip)+'\n')
     print('-'*10)
     return 1

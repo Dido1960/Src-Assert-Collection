@@ -1,0 +1,5 @@
+autodiscover.17u.net
+mail.17u.net
+passport.17u.net
+www.passport.17u.net
+you.17u.net

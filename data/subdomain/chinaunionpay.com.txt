@@ -1,0 +1,9 @@
+95516.chinaunionpay.com
+cardholder.chinaunionpay.com
+cashier.chinaunionpay.com
+chargeback.chinaunionpay.com
+mail.chinaunionpay.com
+online.chinaunionpay.com
+ra.chinaunionpay.com
+risk.chinaunionpay.com
+secureonline.chinaunionpay.com

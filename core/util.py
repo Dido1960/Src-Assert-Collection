@@ -12,6 +12,8 @@ import re
 from IPy import IP
 import threading
 import time
+import urllib3
+urllib3.disable_warnings()
 
 # 正则匹配获取一级域名
 def get_one_level_domain(path):
@@ -62,7 +64,6 @@ def cscan_one(ip,ip_all):
     proxies = {'http': 'http://localhost:8080', 'https': 'http://localhost:8080'}
 
     r = requests.get(q, headers=headers, verify=False,proxies=proxies)
-
     c = r.content.decode()
     p = re.compile(r'<cite>(.*?)</cite>')
     l = re.findall(p, c)
@@ -71,7 +72,7 @@ def cscan_one(ip,ip_all):
         domains.add(domain)
 
     if not domains:
-        print(str(ip)+' False')
+        # print(str(ip)+' False')
         return False
     else:
         print(str(ip)+' True')
@@ -99,23 +100,26 @@ def cscan(CIDR):
 
 
 
-def getTitle(input):
-    """
-    Get title from html-content/ip/url
+# def getTitle(input):
+#     """
+#     Get title from html-content/ip/url
+#
+#     :param input:html-content OR ip OR url
+#     :return text in <title>
+#     :except return string:'NULL'
+#     """
+#     try:
+#         if '<title>' in input:
+#             content = input
+#         else:
+#             url = 'http://' + input if '://' not in input else input
+#             # print(url)
+#             r = requests.get(input, timeout=3,
+#                          headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'})
+#             return re.findall(b'<title>([\s\S]*)</title>', r.content)[0].strip()
+#
+#     except Exception:
+#         return ''
 
-    :param input:html-content OR ip OR url
-    :return text in <title>
-    :except return string:'NULL'
-    """
-    try:
-        if '<title>' in input:
-            content = input
-        else:
-            url = 'http://' + input if '://' not in input else input
-            # print(url)
-            r = requests.get(input, timeout=3,
-                         headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'})
-            return re.findall(b'<title>([\s\S]*)</title>', r.content)[0].decode('gbk').strip()
-
-    except Exception:
-        return ''
+if __name__ == '__main__':
+   cscan_one('139.129.132.6',[])

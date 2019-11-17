@@ -1,0 +1,4 @@
+bos-sandbox-bj.baidu-int.com
+ecloud.baidu-int.com
+irepo.baidu-int.com
+pay.baidu-int.com

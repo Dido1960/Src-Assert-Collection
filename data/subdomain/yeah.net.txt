@@ -1,0 +1,6 @@
+cloud.mail.yeah.net
+ssl.mail.yeah.net
+passport.yeah.net
+passport-v6.yeah.net
+passport2.yeah.net
+passport2-v6.yeah.net

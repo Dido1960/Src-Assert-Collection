@@ -1,0 +1,5 @@
+dl.vipkidstatic.com
+img.vipkidstatic.com
+imgx.vipkidstatic.com
+media.vipkidstatic.com
+s.vipkidstatic.com
