@@ -1,6 +1,0 @@
-do.eleme.cn
-faas.eleme.cn
-iot.eleme.cn
-shop.eleme.cn
-star.eleme.cn
-youcai.eleme.cn

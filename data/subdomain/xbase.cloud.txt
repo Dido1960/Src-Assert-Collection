@@ -1,7 +1,0 @@
-www.xbase.cloud
-apis.xbase.cloud
-cname.xbase.cloud
-docs.xbase.cloud
-i.xbase.cloud
-static.xbase.cloud
-uc.xbase.cloud

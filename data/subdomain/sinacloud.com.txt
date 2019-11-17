@@ -1,7 +1,0 @@
-api.bj0.sinacloud.com
-ftp.sinacloud.com
-special.sinacloud.com
-api.bj0.zone.sinacloud.com
-api.bj1.zone.sinacloud.com
-api.gz1.zone.sinacloud.com
-main.zone.sinacloud.com

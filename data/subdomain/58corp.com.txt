@@ -1,7 +1,0 @@
-58cc.58corp.com
-ams.58corp.com
-payroll.58corp.com
-registry.58corp.com
-salary.58corp.com
-sso.58corp.com
-vpnadmin.58corp.com

@@ -1,3 +1,0 @@
-factory-direct.crov.com
-reseller-expo.crov.com
-source-smart.crov.com

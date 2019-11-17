@@ -1,8 +1,0 @@
-ssl.qhres2.com
-s.ssl.qhres2.com
-s0.ssl.qhres2.com
-s1.ssl.qhres2.com
-s2.ssl.qhres2.com
-s3.ssl.qhres2.com
-s4.ssl.qhres2.com
-s5.ssl.qhres2.com

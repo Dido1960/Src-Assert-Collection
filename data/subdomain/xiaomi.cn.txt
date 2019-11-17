@@ -1,6 +1,0 @@
-migranary.api.xiaomi.cn
-www.migranary.api.xiaomi.cn
-s1.bbs.xiaomi.cn
-static.xiaomi.cn
-www.static.xiaomi.cn
-s1.wan.xiaomi.cn

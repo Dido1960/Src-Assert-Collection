@@ -1,8 +1,0 @@
-pic.baike.soso.com
-cache.soso.com
-login.soso.com
-ssl.ptlogin2.soso.com
-ssl.ui.ptlogin2.soso.com
-ssl.xui.ptlogin2.soso.com
-wenwen.soso.com
-pic.wenwen.soso.com

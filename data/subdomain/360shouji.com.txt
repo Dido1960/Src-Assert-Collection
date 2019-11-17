@@ -1,4 +1,0 @@
-cloud.360shouji.com
-cloud-en.360shouji.com
-passport.360shouji.com
-passport-en.360shouji.com

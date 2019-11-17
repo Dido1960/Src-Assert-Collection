@@ -1,3 +1,0 @@
-n.api.weipan.cn
-lib.cdn.weipan.cn
-video.data.weipan.cn

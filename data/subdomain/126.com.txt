@@ -1,8 +1,0 @@
-cloud.mail.126.com
-ssl.mail.126.com
-passport.126.com
-passport2.126.com
-vip.126.com
-cloud.vip.126.com
-passport.vip.126.com
-passport2.vip.126.com

@@ -1,4 +1,0 @@
-api.sinacloud.com.cn
-mailcloud.api.sinacloud.com.cn
-git.sinacloud.com.cn
-pypi.sinacloud.com.cn

@@ -1,4 +1,0 @@
-api.qihu.com
-scm.qihu.com
-beijing.xstore.qihu.com
-shanghai.xstore.qihu.com

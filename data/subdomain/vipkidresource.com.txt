@@ -1,4 +1,0 @@
-dl.vipkidresource.com
-fe-static.vipkidresource.com
-s.vipkidresource.com
-wx.vipkidresource.com

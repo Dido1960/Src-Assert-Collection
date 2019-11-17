@@ -1,4 +1,0 @@
-train.qa.17usoft.net
-t.17usoft.net
-train.17usoft.net
-trainorder.17usoft.net

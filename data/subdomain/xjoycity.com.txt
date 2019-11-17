@@ -1,6 +1,0 @@
-county.xjoycity.com
-demo.xjoycity.com
-ic-sp.xjoycity.com
-meilinmeijuapp.xjoycity.com
-meilinmeijuserver.xjoycity.com
-xyzc.xjoycity.com

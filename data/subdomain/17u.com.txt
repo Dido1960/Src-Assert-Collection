@@ -1,6 +1,0 @@
-autodiscover.17u.com
-game.17u.com
-mail.17u.com
-pic.17u.com
-shouji.17u.com
-yx.17u.com

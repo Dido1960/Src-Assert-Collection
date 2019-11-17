@@ -1,6 +1,0 @@
-passport.m.360buy.com
-mail.360buy.com
-passport.360buy.com
-quickpay.360buy.com
-sso.360buy.com
-vc.360buy.com

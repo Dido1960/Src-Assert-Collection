@@ -1,5 +1,0 @@
-cloud.mail.188.com
-passport.188.com
-passport2.188.com
-vip.188.com
-cloud.vip.188.com
