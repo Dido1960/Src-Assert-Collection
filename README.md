@@ -38,6 +38,11 @@ Bing引擎C段扫描整理最后的IP资产
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191117130443689.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
 
+使用burp代理绕过ssl证书检测，默认使用8080端口  
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191117131612473.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
+
+
 ## TODO
 * /data/ip整理去重
 * 使用mutli worker管理工人
