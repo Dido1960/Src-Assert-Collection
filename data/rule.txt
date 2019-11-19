@@ -1,9 +1,0 @@
-1.html
-<div class="content frinds clearfixs">(.*?)</div>
-<a target="_blank" href="(.*?)">.*?</a>
-2.html
-target="_blank".*安全应急响应中心 - 0xsafe<\/a><br>\n(.*)<blockquote>
-<a href="(.*?)" target="_blank"
-3.html
-<section id=".*{  }">(.*)<\/section>
-<a href=".*?" class="external-link" target="_blank">(h.*?)<\/a>
