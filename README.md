@@ -31,7 +31,7 @@ Bing引擎C段扫描整理最后的IP资产
 
 收集C段IP并实时监控，结果存放在/data/ip
 
-* cscan.py  
+* python cscan.py  
 发布C段扫描收集任务并监控
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191119201545299.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
 
