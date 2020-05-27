@@ -1,4 +1,5 @@
-## Src-Assert-Collection
+Src-Assert-Collection
+
 * 收集SRC子域名资产，用于POC批量测试
 * 利用Celery+Redis实现分布式任务，方便任务管理
 * enumerate subdomains of websites using OSINT，使用[Sublist3r](https://github.com/aboul3la/Sublist3r)项目接口收集子域名
@@ -9,7 +10,7 @@
 
 * 本地安装celery+redis
 
-* 项目依赖sublist3r，需要下载sublist3r项目到根目录，为了正确使用，我做了一点点[修改](https://github.com/Dido1960/Sublist3r)
+* 项目依赖sublist3r，为了正确使用，我做了一点点[修改](https://github.com/Dido1960/Sublist3r)，请下载项目到根目录
 
   * 添加 \_\_init\_\_.py
 
@@ -19,11 +20,8 @@
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200528000857559.png)
 
-    
 
 ## Some Directory
-
-Sublist3r默认设置
 
 * other/备案domain.txt
 
@@ -40,7 +38,6 @@ Sublist3r默认设置
 
   POC测试代码（目前可用CVE-2020-2551进行测试）
 
-  
 
 ## Screenshots
 
@@ -48,19 +45,17 @@ Sublist3r默认设置
 
 * 开启redis服务
 
-  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053702.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
 
 * cd Get_Sub && python start.py 
   发布子域名收集任务并监控
 
-  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
 
 * 该项目借助sublist3r，可在tasks.py中设置其他引擎
 
-  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053701.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
-
-
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
 
 * 对收集的子域名列表进行POC测试（为了演示，这里本地搭建适用CVE-2020-2551[Weblogic环境](https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf))，发现10.10.10.160可疑主机
 
-  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053702.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053701.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
