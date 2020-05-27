@@ -35,7 +35,7 @@ Sublist3r默认设置
 
 * 开启redis服务
 
-  ![标题](D:\thing\src资产收集项目\imgs\1.png)
+  ![标题](https://github.com/Dido1960/Src-Assert-Collection/blob/master/imgs/1.png?raw=true)
 
 * cd Get_Sub && python start.py 
   发布子域名收集任务并监控
