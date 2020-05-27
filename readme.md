@@ -4,9 +4,22 @@
 * enumerate subdomains of websites using OSINT，使用[Sublist3r](https://github.com/aboul3la/Sublist3r)项目接口收集子域名
 
 ## Requirement
+
 * 该项目目前仅在本地测试
+
 * 本地安装celery+redis
-* sublist3r依赖参照[Github](https://github.com/aboul3la/Sublist3r)
+
+* 项目依赖sublist3r，需要下载sublist3r项目到根目录，为了正确使用，我做了一点点[修改](https://github.com/Dido1960/Sublist3r)
+
+  * 添加 \_\_init\_\_.py
+
+  * 修改  from subbrute import subbrute  -> from Sublist3r.subbrute import subbrute
+
+    最终的目录结构
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200528000857559.png)
+
+    
 
 ## Some Directory
 
