@@ -1,0 +1,3 @@
+[submodule "Sublist3r"]
+	path = Sublist3r
+	url = https://github.com/aboul3la/Sublist3r.git
