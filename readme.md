@@ -9,7 +9,7 @@
 
 * 本地安装celery+redis
 
-* 项目依赖sublist3r，需要下载sublist3r项目到根目录，为了正确使用，我做了一点点[修改](https://github.com/Dido1960/Sublist3r)
+* 项目依赖sublist3r，为了正确使用，我做了一点点[修改](https://github.com/Dido1960/Sublist3r),请下载项目到根目录
 
   * 添加 \_\_init\_\_.py
 
