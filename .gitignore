@@ -1,0 +1,5 @@
+*.pyc
+CVE-2020-2551.txt
+test1.py
+/__pycache__
+/.idea
