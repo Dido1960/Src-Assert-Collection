@@ -50,4 +50,4 @@ Sublist3r默认设置
 
 * 对收集的子域名列表进行POC测试（为了演示，这里本地搭建适用CVE-2020-2551[Weblogic环境](https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf))，发现10.10.10.160可疑主机
 
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053702.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200527232053702.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxODA5ODk2,size_16,color_FFFFFF,t_70)
